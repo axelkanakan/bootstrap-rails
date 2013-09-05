@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BootstrapRails</title>
+
+ 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+ 	<title><%= content_for?(:title) ? yield(:title) : "Rails Bootstrap" %></title>
+ 	<meta name= "description" content ="<%= content_for?(:description) ? yield(:description) : "Rails Bootstrap" %>">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<div id="container">
+		<header></header>
+			<main role="main">
+			<%= yield %>
+			</main>
+		<footer>
+		</footer>		
+	</div>
+
 
 </body>
 </html>
