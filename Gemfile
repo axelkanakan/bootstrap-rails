@@ -20,7 +20,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 #rails-bootstrap
+gem 'activerecord-tableless'
 gem 'bootstrap-sass'
+gem 'google_drive'
 gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
