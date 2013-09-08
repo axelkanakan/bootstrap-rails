@@ -4,7 +4,7 @@ gem 'rails', '4.0.0'
 
 #Rails defaults
 
-gem 'pg'
+
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -28,7 +28,7 @@ gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
 
 group :development do
-	gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+	
 	gem 'better_errors'
 	gem 'quiet_assets'
 end
